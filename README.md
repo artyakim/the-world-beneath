@@ -22,6 +22,8 @@
 3. Откройте «Системные настройки» → «Конфиденциальность и безопасность», прокрутите вниз и нажмите «Всё равно открыть» рядом с названием игры.
 4. Дальше приложение запускается обычным двойным щелчком.
 
+**Первый запуск долгий.** После «Новая игра» игра несколько минут готовит графику: на MacBook Pro с M1 Pro это около 4 минут, на менее мощных Mac дольше. На экране видны полоса и процент — это не зависание. Со второго раза игра запускается за 10–15 секунд.
+
 Вместо шагов 2–3 можно один раз выполнить в Терминале:
 
 ```bash
@@ -61,3 +63,5 @@ A two-player local co-op third-person adventure with split screen. A geophysicis
 **[Download for Mac](https://github.com/artyakim/the-world-beneath/releases/latest/download/TheWorldBeneath-mac.zip)** (Apple Silicon: macOS 13+, Intel: macOS 11+; tested on Apple Silicon only).
 
 The app is not signed with an Apple developer certificate. On first launch macOS will block it: open System Settings → Privacy & Security and click “Open Anyway”.
+
+The very first start takes several minutes while the game prepares its shaders (about 4 minutes on an M1 Pro); later starts take 10–15 seconds.
